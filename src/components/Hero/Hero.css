@@ -1,0 +1,100 @@
+/* --------- Navbar ------------ */
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 1rem;
+  color: black;
+  line-height: 2;
+}
+
+.nav-link:hover {
+  color: #6C63FF !important;
+  font-size: 1.25rem;
+}
+
+.nav-link.active {
+  font-weight: 600;
+  color: #6C63FF !important;
+}
+
+.navbar-toggler {
+  color: #aaa !important;
+}
+
+
+/* --------- Hero Section ------------ */
+.hero {
+  text-align: center;
+  margin: auto;
+  padding-top: 1vh;
+  color: #6C63FF;
+}
+
+.hero img {
+  max-width: 80%;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 2vh auto 1vh;
+}
+
+.hero h2 {
+  font-size: 1.75rem;
+  font-weight: normal;
+  margin: 1vh auto 3vh;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background: #6C63FF;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  margin: 0 auto 2vh;
+}
+
+.btn-primary:hover {
+  background: #8C83FF;
+  font-size: 1.3rem;
+}
+
+.social-icons {
+  margin: 1rem auto;
+}
+
+.social-icons .bi {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.social-icons .bi:hover {
+  font-weight: 600;
+  font-size: 2.1rem;
+  cursor: pointer;
+}
+
+.bi-github:hover {
+  color: black;
+}
+
+.bi-twitter:hover {
+  color: #55ACEE;
+}
+
+.bi-linkedin:hover {
+  color: #0A66C2;
+}
+
+
+@media screen and (min-width: 1368px) {
+  .hero {
+    padding-top: 5%;
+  }
+}
+
+
