@@ -1,0 +1,31 @@
+#about-me {
+  background-color: #6C63FF;
+  text-align: center;
+  color: #FFF;
+  padding: 1rem 0;
+}
+
+#about-me img {
+  margin: 5% auto 2%;
+  width: 20%;
+  max-width: 256px;;
+  border-radius: 50%;
+  border: 0.2rem solid #FFF;
+  border-left-style: dotted;
+  border-left-width: 1px;
+}
+
+#about-me h2 {
+  margin: 1rem auto;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+#about-me p {
+  margin: 1rem auto 5rem;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.25rem;
+  max-width: 700px;
+  line-height: 1.6;
+}

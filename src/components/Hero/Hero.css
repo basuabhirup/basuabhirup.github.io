@@ -1,3 +1,7 @@
+#hero {
+  background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+}
+
 /* --------- Navbar ------------ */
 
 .nav-link {
@@ -76,17 +80,18 @@
   font-weight: 600;
   font-size: 2.1rem;
   cursor: pointer;
+  color: #6C63FF;
 }
 
-.bi-github:hover {
+.bi-github {
   color: black;
 }
 
-.bi-twitter:hover {
+.bi-twitter {
   color: #55ACEE;
 }
 
-.bi-linkedin:hover {
+.bi-linkedin {
   color: #0A66C2;
 }
 
