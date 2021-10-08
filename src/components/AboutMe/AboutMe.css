@@ -27,5 +27,12 @@
   font-weight: 500;
   font-size: 1.25rem;
   max-width: 700px;
-  line-height: 1.6;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 1368px) {
+  #about-me p {
+    max-width: 900px;
+    line-height: 1.4;
+  }
 }

@@ -73,25 +73,25 @@
 
 .social-icons .bi {
   font-size: 2rem;
-  margin: 1rem;
+  margin: 1rem;  
+  color: #6C63FF;
 }
 
 .social-icons .bi:hover {
   font-weight: 600;
   font-size: 2.1rem;
   cursor: pointer;
-  color: #6C63FF;
 }
 
-.bi-github {
+.bi-github:hover {
   color: black;
 }
 
-.bi-twitter {
+.bi-twitter:hover {
   color: #55ACEE;
 }
 
-.bi-linkedin {
+.bi-linkedin:hover {
   color: #0A66C2;
 }
 

@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  color: #999;  
+  fill: #999;
+  min-width: 7.5rem;
+  min-height: 10rem;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+
+.card:hover{
+  color: #6C63FF;
+  fill: #6C63FF;
+  min-width: 8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.card svg {
+  width: 4rem;
+  margin: auto;
+}
+
+.card p {
+  margin: 1rem 0 0;
+}

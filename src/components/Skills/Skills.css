@@ -1,0 +1,19 @@
+#skills {
+  background-color: #FFF;
+  color: #6C63FF;
+  text-align: center;
+  padding: 2rem 0 4rem;
+}
+
+#skills h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+#skills .cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
