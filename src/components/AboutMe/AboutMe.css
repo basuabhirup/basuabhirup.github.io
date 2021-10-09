@@ -22,17 +22,19 @@
 }
 
 #about-me p {
+  text-align: center;
   margin: 1rem auto 5rem;
   align-items: center;
   font-weight: 500;
   font-size: 1.25rem;
-  max-width: 700px;
+  padding: 0 1.2rem;
+  max-width: 50rem;
   line-height: 1.5;
 }
 
 @media screen and (min-width: 1368px) {
   #about-me p {
     max-width: 900px;
-    line-height: 1.4;
+    line-height: 1.25;    
   }
 }

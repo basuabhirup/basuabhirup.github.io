@@ -3,8 +3,8 @@
   flex-direction: column;
   color: #999;  
   fill: #999;
-  min-width: 7.5rem;
-  min-height: 10rem;
+  width: 7.5rem;
+  height: 10rem;
   margin: 1rem;
   padding: 1rem;
   text-align: center;
@@ -15,7 +15,6 @@
 .card:hover{
   color: #6C63FF;
   fill: #6C63FF;
-  min-width: 8rem;
   font-weight: 600;
   cursor: pointer;
 }

@@ -1,5 +1,3 @@
-import Skills from "./Skills"
-
 const skills = [
   {
     title: "HTML5",

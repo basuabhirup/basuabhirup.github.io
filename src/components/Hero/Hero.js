@@ -32,7 +32,7 @@ function Hero() {
           </div>       
         </div>
       </nav>
-      <section className="hero">
+      <section className="hero container">
         <img src={svg} alt="Hero" />
         <h1>Abhirup Basu</h1>
         <h2>Web Developer</h2>

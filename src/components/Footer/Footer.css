@@ -1,0 +1,52 @@
+#cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50vh;
+  background-color: #6C63FF;
+  text-align: center;
+  color: #FFF;
+  padding: 2.5rem 1.5rem 1rem;
+}
+
+#cta h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.04rem;
+}
+
+#cta h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.02rem;
+}
+
+.contact {
+  margin: 0 auto 2rem;
+}
+
+.contact .bi {
+  color: #DDF;
+  margin: 0 1rem;
+  font-size: 4rem;
+}
+
+.contact .bi:hover {
+  font-weight: 900;
+  cursor: pointer;
+  color: #FFF;
+}
+
+.location {
+  font-size: 1.4rem;
+  color: #DDF;
+  letter-spacing: 0.08rem;
+  margin: 0 auto 2.5rem;
+}
+
+footer p {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  letter-spacing: 0.025rem;
+}
