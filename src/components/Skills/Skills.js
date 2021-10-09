@@ -6,9 +6,9 @@ import skills from "./skills-list";
 
 function Skills() {
   return (
-    <section id="skills" class="container">
+    <section id="skills">
       <h2>Skills</h2>
-      <section className="cards">
+      <section className="cards container">
       {skills.map((skill, i) => (
         <SkillCard 
           key = {i}

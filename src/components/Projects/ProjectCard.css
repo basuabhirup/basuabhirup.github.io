@@ -1,0 +1,22 @@
+.project-card {
+  aspect-ratio: 1.25;
+  max-width: 70%;
+  background-color: #DDD;
+  margin: auto;
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+
+
+.project-carrrrd {
+  aspect-ratio: 1.5;
+  margin: auto;
+  width: 99%;
+  border: 2px solid red;
+}
+
+@media screen and (min-width: 1000px) {
+  .project-card {
+    max-width: 50%;
+  }
+}
