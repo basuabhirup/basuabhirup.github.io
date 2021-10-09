@@ -40,7 +40,7 @@ function Hero() {
           href="https://drive.google.com/file/d/1APo04SQrlhSFHJlkF9mwgPMxXE7YQVFh/view?usp=sharing"
           target="_blank" rel="noreferrer"
         > 
-          My Resume &nbsp; <i class="bi bi-box-arrow-up-right"></i>
+          See My Resume &nbsp; <i class="bi bi-box-arrow-up-right"></i>
         </a>
         <div className="social-icons">
           <a href="https://github.com/basuabhirup" target="_blank" rel="noreferrer"><i class="bi bi-github" /></a>

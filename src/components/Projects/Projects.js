@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectCard from "./ProjectCard";
+import projects from "./proejcts-list";
 import "./Projects.css";
 
 function Projects() {
@@ -9,16 +10,22 @@ function Projects() {
       <h2>Projects</h2>
       <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
-        <div className="carousel-item container-fluid active">
+      {projects.map((project, i) => (
+        <div className={i === 0 ? "carousel-item container-fluid active" : "carousel-item container-fluid"}>
           <div className="testimonial-text">
-            <ProjectCard />
+            <ProjectCard     
+                key={project.imgAlt}            
+                Title={project.title}
+                ImageSource={project.imgSrc}
+                ImageAlt={project.imgAlt}
+                TechStack={project.techStack}
+                GitHub={project.gitHubURL}
+                LiveSite={project.liveSiteURL}
+            />            
           </div>
         </div>
-        <div className="carousel-item container-fluid">
-            <div className="testimonial-text">
-              <ProjectCard />
-            </div>
-        </div>
+        ))
+      }
       </div>
       <button className="carousel-control-prev" type="button" 
         data-bs-target="#carouselExampleControls" data-bs-slide="prev">
