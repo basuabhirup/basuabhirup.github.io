@@ -43,9 +43,9 @@ function Hero() {
           See My Resume &nbsp; <i class="bi bi-box-arrow-up-right"></i>
         </a>
         <div className="social-icons">
-          <a href="https://github.com/basuabhirup" target="_blank" rel="noreferrer"><i class="bi bi-github" /></a>
-          <a href="https://twitter.com/basu_abhirup27" target="_blank" rel="noreferrer"><i class="bi bi-twitter" /></a>
-          <a href="https://www.linkedin.com/in/basu-abhirup/" target="_blank" rel="noreferrer"><i class="bi bi-linkedin" /></a>
+          <a title="GitHub" href="https://github.com/basuabhirup" target="_blank" rel="noreferrer"><i class="bi bi-github" /></a>
+          <a title="Twitter" href="https://twitter.com/basu_abhirup27" target="_blank" rel="noreferrer"><i class="bi bi-twitter" /></a>
+          <a title="LinkedIn" href="https://www.linkedin.com/in/basu-abhirup/" target="_blank" rel="noreferrer"><i class="bi bi-linkedin" /></a>
         </div>
       </section>
     </section>

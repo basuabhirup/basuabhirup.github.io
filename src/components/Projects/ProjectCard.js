@@ -14,8 +14,8 @@ function ProjectCard(props) {
           ))}
         </div>
         <div className="project-links">
-          <a href={props.GitHub} target="_blank" rel="noreferrer"><i class="bi bi-github" /></a>
-          <a href={props.LiveSite} target="_blank" rel="noreferrer"><i class="bi bi-globe2" /></a>
+          <a title="GitHub Repository" href={props.GitHub} target="_blank" rel="noreferrer"><i class="bi bi-github" /></a>
+          <a title="Live Site URL" href={props.LiveSite} target="_blank" rel="noreferrer"><i class="bi bi-globe2" /></a>
         </div>
       </div>
     </div>
