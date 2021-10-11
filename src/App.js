@@ -22,10 +22,25 @@ function App() {
     document.querySelector('.app > *:first-child').style.minHeight = `${minH}px` || `100vh`;
   }
 
+  function toggleArrow() {
+    if (window.scrollY > window.innerHeight / 2) {
+      document.querySelector('.up-arrow').style.visibility = "visible";
+    } else {
+      document.querySelector('.up-arrow').style.visibility = "hidden";
+    }
+  }
+
+  function goToTop() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+
   useEffect(() => {
     window.addEventListener('resize', updateSize);
+    window.addEventListener('scroll', toggleArrow);
     return () => {
       window.removeEventListener('resize', updateSize);
+      window.removeEventListener('scroll', toggleArrow);
     }
   })
   
@@ -36,6 +51,9 @@ function App() {
       <Skills />
       <Projects />
       <Footer />
+      <button onClick={goToTop} className="up-arrow" title="Go to top">
+        <i class="bi bi-chevron-up"></i>
+      </button>
     </div>
   );
 }
