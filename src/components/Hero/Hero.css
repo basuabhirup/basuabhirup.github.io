@@ -18,13 +18,18 @@
 }
 
 .nav-link.active {
+  display: inline-flex;
   font-weight: 600;
-  color: #6C63FF !important;
+  color: #FFF !important;
+  background-color: #6C63FF !important;  
+  border-radius: 12px;
+  padding: 0.2rem 0.6rem;
 }
 
 .nav-link.active:hover {
   font-weight: 700;
-  color: #8C83FF !important;
+  background-color: #8C83FF !important;
+  border: 1 px solid #6C63FF;
 }
 
 .navbar-toggler {

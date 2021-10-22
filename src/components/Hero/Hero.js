@@ -26,7 +26,7 @@ function Hero() {
             </ul>
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link active" href="#cta">Contact Me</a>
+                <a className="nav-link active" href="#cta">Say Hi 👋🏻</a>
               </li>
             </ul>  
           </div>       
