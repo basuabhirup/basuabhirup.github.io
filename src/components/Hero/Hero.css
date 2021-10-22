@@ -66,8 +66,8 @@
   border-radius: 12px;
   font-size: 1.25rem;
   font-weight: 600;
-  padding: 1rem 2rem;
-  margin: 0 auto 2vh;
+  padding: 0.75rem 1.8rem;
+  margin: 0 auto;
 }
 
 .btn-primary:hover {
@@ -87,7 +87,7 @@
 
 .social-icons .bi {
   font-size: 2rem;
-  margin: 1rem;  
+  margin: 0 1rem 1rem;  
   color: #6C63FF;
 }
 

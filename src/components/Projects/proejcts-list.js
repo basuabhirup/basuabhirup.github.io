@@ -1,5 +1,13 @@
 const projects = [
   {
+    title: "User Directory App",
+    imgSrc: "https://i.ibb.co/g6f7WgL/image.png",
+    imgAlt: "user directory module",
+    techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "Mongoose", "CSS"],
+    gitHubURL: "https://github.com/basuabhirup/user-directory-module",
+    liveSiteURL: "https://user-directory-by-basuabhirup.vercel.app"
+  },
+  {
     title: "Keeper App",
     imgSrc: "https://i.ibb.co/3Ff2P9h/keeper-app.png",
     imgAlt: "keeper app",
