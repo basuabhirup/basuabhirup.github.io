@@ -37,7 +37,7 @@ function Hero() {
         <h1>Abhirup Basu</h1>
         <h2>Web Developer</h2>
         <a className="btn btn-primary" 
-          href="https://drive.google.com/file/d/1dFIMSZ6mwmXwBdlJqAWEotKy3iKMSYaA/view?usp=sharing"
+          href="https://drive.google.com/file/d/1ZFkc6kag9EqZiXTrqocGLqD_COApdGAB/view"
           target="_blank" rel="noreferrer"
         > 
           See My Resume &nbsp; <i class="bi bi-box-arrow-up-right"></i>
